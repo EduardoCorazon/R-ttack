@@ -6,6 +6,8 @@ Note * you need to always restart the backend if you make changes
 
 `node server.js`
 
+After you git clone this project run `npm install` to get all the necessary dependencies
+
 # Instructions for Ethan:
 
 Click on Code and copy url
