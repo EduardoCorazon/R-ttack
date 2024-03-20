@@ -25,3 +25,13 @@ make your chages
 `git pull {repo}`
 
 `git push {repo}`
+
+# For connecting SDR
+
+`usbipd list`
+
+`usbipd bind -b 7-2`
+
+`usbipd attach --wsl --busid 7-2`
+
+`usbipd detach --wsl --busid 7-2`

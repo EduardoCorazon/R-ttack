@@ -1,0 +1,18 @@
+{
+  "id": "default_1708900306410_0",
+  "name": "default",
+  "age": "",
+  "role": "Both",
+  "team": "Ready for Attack & Analyzed",
+  "email": "",
+  "status": "Attack & Analyzed",
+  "actions": "",
+  "avatar": "https://i.pravatar.cc/150?u=a042581f4e29026024d",
+  "demodulation": "wfm",
+  "duration": 0,
+  "creationTime": 1708999445047,
+  "gain": "35",
+  "sampleRate": 250000,
+  "frequency": "94.5",
+  "filename": "default"
+}
