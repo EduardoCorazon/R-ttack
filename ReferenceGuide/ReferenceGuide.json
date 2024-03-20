@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Car Key Remote (US)",
+    "frequency": "315",
+    "source": "internet",
+    "description": "Used in automobile keyless entry systems.",
+    "type": "Automotive",
+    "id": 0
+  },
+  {
+    "name": "Car Key Remote (UK)",
+    "frequency": "433",
+    "source": "internet",
+    "description": "Used in automobile keyless entry systems.",
+    "type": "Automotive",
+    "id": 1
+  },
+  {
+    "name": "Wireless Doorbell",
+    "frequency": "433",
+    "source": "internet",
+    "description": "Utilized in residential doorbell systems for remote signaling.",
+    "type": "Home Automation",
+    "id": 2
+  },
+  {
+    "name": "Garage Door Opener",
+    "frequency": "390",
+    "source": "internet",
+    "description": "Commonly found in home garage door automation systems.",
+    "type": "Home Automation",
+    "id": 3
+  },
+  {
+    "name": "Baby Monitor",
+    "frequency": "900",
+    "source": "internet",
+    "description": "Used for real-time audio/video monitoring of infants.",
+    "type": "Consumer Electronics",
+    "id": 4
+  },
+  {
+    "name": "Weather Station",
+    "frequency": "868",
+    "source": "internet",
+    "description": "Provides wireless weather data collection and transmission.",
+    "type": "Environmental Monitoring",
+    "id": 5
+  },
+  {
+    "name": "TV Remote Control",
+    "frequency": "418",
+    "source": "internet",
+    "description": "Operates television and other audio-visual devices remotely.",
+    "type": "Consumer Electronics",
+    "id": 6
+  },
+  {
+    "name": "Smart Utility Meter",
+    "frequency": "900",
+    "source": "internet",
+    "description": "Enables remote monitoring and reporting of utility consumption.",
+    "type": "Utilities",
+    "id": 7
+  },
+  {
+    "name": "Industrial Wireless Sensor",
+    "frequency": "915",
+    "source": "internet",
+    "description": "Utilized in industrial settings for data sensing and monitoring.",
+    "type": "Industrial",
+    "id": 8
+  },
+  {
+    "name": "Wireless Microphone",
+    "frequency": "600",
+    "source": "internet",
+    "description": "Used in audio recording and broadcasting applications.",
+    "type": "Audio",
+    "id": 9
+  },
+  {
+    "name": "RFID Tag",
+    "frequency": "860",
+    "source": "internet",
+    "description": "Enables wireless identification and tracking of objects.",
+    "type": "Identification",
+    "id": 10
+  },
+  {
+    "name": "Satellite Communication",
+    "frequency": "1370",
+    "source": "internet",
+    "description": "Facilitates communication through satellite links.",
+    "type": "Communication",
+    "id": 11
+  },
+  {
+    "name": "Smart Home Hub",
+    "frequency": "915",
+    "source": "internet",
+    "description": "Central control unit for various smart home devices.",
+    "type": "Home Automation",
+    "id": 12
+  },
+  {
+    "name": "Wireless Thermometer",
+    "frequency": "868",
+    "source": "internet",
+    "description": "Measures and transmits temperature wirelessly.",
+    "type": "Health and Wellness",
+    "id": 13
+  },
+  {
+    "name": "Traffic Sensor",
+    "frequency": "915",
+    "source": "internet",
+    "description": "Used in intelligent transportation systems for traffic monitoring.",
+    "type": "Transportation",
+    "id": 14
+  },
+  {
+    "name": "IoT Device",
+    "frequency": "902",
+    "source": "internet",
+    "description": "Generic term for various Internet of Things devices.",
+    "type": "Internet of Things",
+    "id": 15
+  },
+  {
+    "name": "Remote Keyless Entry",
+    "frequency": "315",
+    "source": "internet",
+    "description": "Found in vehicles for keyless entry and ignition control.",
+    "type": "Automotive",
+    "id": 16
+  },
+  {
+    "name": "Home Security System",
+    "frequency": "433",
+    "source": "internet",
+    "description": "Comprehensive security setup with wireless components.",
+    "type": "Security",
+    "id": 17
+  },
+  {
+    "name": "Wireless Computer Mouse",
+    "frequency": "2400",
+    "source": "internet",
+    "description": "Input device for computers, operates wirelessly.",
+    "type": "Computer Accessories",
+    "id": 18
+  },
+  {
+    "name": "Bluetooth Device",
+    "frequency": "2400",
+    "source": "internet",
+    "description": "Short-range wireless communication technology.",
+    "type": "Wireless Technology",
+    "id": 19
+  },
+  {
+    "name": "Wireless Computer Keyboard",
+    "frequency": "2400",
+    "source": "internet",
+    "description": "Input device for computers, operates wirelessly.",
+    "type": "Computer Accessories",
+    "id": 20
+  },
+  {
+    "name": "Wireless Headphones",
+    "frequency": "2400",
+    "source": "internet",
+    "description": "Audio devices that operate wirelessly using radio frequencies.",
+    "type": "Audio",
+    "id": 21
+  },
+  {
+    "name": "Smartwatch",
+    "frequency": "915",
+    "source": "internet",
+    "description": "Wearable device with various smart functionalities.",
+    "type": "Wearable Technology",
+    "id": 22
+  },
+  {
+    "name": "Fitness Tracker",
+    "frequency": "2400",
+    "source": "internet",
+    "description": "Monitors and tracks fitness-related metrics wirelessly.",
+    "type": "Health and Wellness",
+    "id": 23
+  },
+  {
+    "name": "Drone",
+    "frequency": "900",
+    "source": "internet",
+    "description": "Unmanned aerial vehicle controlled wirelessly.",
+    "type": "Aerial Vehicles",
+    "id": 24
+  },
+  {
+    "name": "Automated Sprinkler System",
+    "frequency": "915",
+    "source": "internet",
+    "description": "Allows remote control and automation of sprinkler systems.",
+    "type": "Home Automation",
+    "id": 25
+  },
+
+  {
+  "name": "Automated Sprinkler System",
+  "frequency": "915",
+  "source": "internet",
+  "description": "Allows remote control and automation of sprinkler systems.",
+  "type": "Home Automation",
+  "id": 27
+},
+  {
+    "name": "Automated Sprinkler System",
+    "frequency": "915",
+    "source": "internet",
+    "description": "Allows remote control and automation of sprinkler systems.",
+    "type": "Home Automation",
+    "id": 28
+  },
+  {
+    "name": "Automated Sprinkler System",
+    "frequency": "915",
+    "source": "internet",
+    "description": "Allows remote control and automation of sprinkler systems.",
+    "type": "Home Automation",
+    "id": 29
+  },
+  {
+    "name": "Automated Sprinkler System",
+    "frequency": "915",
+    "source": "internet",
+    "description": "Allows remote control and automation of sprinkler systems.",
+    "type": "Home Automation",
+    "id": 30
+  }
+]
