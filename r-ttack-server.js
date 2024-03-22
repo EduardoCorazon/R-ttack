@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const cors = require('cors');
+const ip = require('ip')
 // routes (components)
 const routes = require('./components/Authentication/AuthRoutes.js');
 const RTL_MenuRoutes = require('./components/Rtl-sdr/RTL_MenuRoutes')
@@ -15,7 +16,19 @@ const Notification_Routes = require('./components/Notifications/NotificationRout
 // settings
 const app = express();
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: function (origin, callback) {
+        // Allow requests with no origin (like mobile apps or curl requests)
+        if (!origin) return callback(null, true);
+        // Extract the IP address from the origin
+        const originIP = new URL(origin).hostname;
+            console.log(originIP)
+        // Check if the request origin IP is a private IP address
+        if (ip.isPrivate(originIP)) {
+            callback(null, true);
+        } else {
+            callback(new Error("Not allowed by CORS"));
+        }
+    },
     credentials: true, // Enable credentials (cookies, headers, etc.)
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', // Include OPTIONS method
 };
@@ -34,8 +47,14 @@ app.use(session({
     },
 }));
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'http://your-frontend-domain.com');
-    res.header('Access-Control-Allow-Credentials', true);
+    const requestOrigin = req.headers.origin;
+    if (requestOrigin) {
+        const originIP = new URL(requestOrigin).hostname;
+        if (ip.isPrivate(originIP)) {
+            res.setHeader('Access-Control-Allow-Origin', requestOrigin);
+            res.setHeader('Access-Control-Allow-Credentials', true);
+        }
+    }
     next();
 });
 
