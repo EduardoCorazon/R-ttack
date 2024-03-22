@@ -21,7 +21,6 @@ const corsOptions = {
         if (!origin) return callback(null, true);
         // Extract the IP address from the origin
         const originIP = new URL(origin).hostname;
-            console.log(originIP)
         // Check if the request origin IP is a private IP address
         if (ip.isPrivate(originIP)) {
             callback(null, true);
