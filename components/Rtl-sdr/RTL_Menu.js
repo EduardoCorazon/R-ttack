@@ -254,7 +254,7 @@ function menuAction(menuChoice) {
                                 if (err) {
                                     console.error(`Error writing file: ${err.message}`);
                                 } else {
-                                    // console.log(`File written: ${saveGraphFilePath}`);
+                                    console.log(`Analysis done, file written: ${saveGraphFilePath}`);
                                 }
                             });
                         }
